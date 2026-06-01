@@ -45,7 +45,7 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url(https://www.elledecoration.vn/wp-content/uploads/2025/03/1-son-doong.jpg)",
+            backgroundImage: "url(https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/bucket/664b3e4e-ef2f-491f-ba95-c29e10e0e6f6.png)",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/80" />
