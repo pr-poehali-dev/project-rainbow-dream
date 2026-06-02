@@ -1,6 +1,7 @@
 import { Compass, Lock, Sparkles, ShieldCheck, Wallet, Leaf, Plus, Minus, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
+import PrimorskyMap3D from "@/components/PrimorskyMap3D"
 
 interface FAQ {
   question: string
@@ -163,6 +164,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <PrimorskyMap3D />
 
       {/* Journey Section */}
       <section className="relative z-10 py-24 px-6">
