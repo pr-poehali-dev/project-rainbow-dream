@@ -14,6 +14,7 @@ interface Landmark {
   description: string
   founded: string
   category: string
+  photo: string
   attractions?: string[]
 }
 
@@ -28,6 +29,7 @@ const landmarks: Landmark[] = [
     description: "Главный город Приморского края и крупнейший порт России на Тихом океане. Расположен на полуострове Муравьёва-Амурского и омывается водами Японского моря.",
     founded: "1860",
     category: "Город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/11d93f90-fd93-4c6f-9703-3f5e019b3975.jpg",
     attractions: [
       "Мост на о. Русский — самый длинный вантовый мост в мире (1104 м)",
       "Владивостокская крепость — уникальный оборонительный комплекс XIX–XX вв.",
@@ -54,6 +56,7 @@ const landmarks: Landmark[] = [
     description: "Второй по величине город края на пересечении важных транспортных путей. Крупный железнодорожный узел и сельскохозяйственный центр Приморья.",
     founded: "1866",
     category: "Город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/edd31bb5-56ac-4c52-adf5-a2f2baa20383.jpg",
     attractions: [
       "Уссурийский заповедник — кедрово-широколиственные леса с тиграми",
       "Черепаха Уссурийска — каменное изваяние XII века, надгробие чжурчжэньского полководца (аналог экспонатов зала «Погребальный комплекс» музея Арсеньева)",
@@ -73,6 +76,7 @@ const landmarks: Landmark[] = [
     description: "Крупный торговый порт на берегу Японского моря. Центр рыбной промышленности и международной торговли. Отсюда отправляются грузы в Японию, Корею и Китай.",
     founded: "1950",
     category: "Портовый город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/044dfdf1-8a0a-4133-8214-cd12aa3d26a7.jpg",
     attractions: [
       "Бухта Находка — живописная природная гавань",
       "Мыс Астафьева — скалистый мыс с панорамой Японского моря",
@@ -91,6 +95,7 @@ const landmarks: Landmark[] = [
     description: "Город в горной части Приморья, центр авиастроения. Здесь расположен завод «Прогресс», производящий вертолёты серии «Ка». В городском музее хранятся уникальные материалы об экспедициях В.К. Арсеньева.",
     founded: "1902",
     category: "Промышленный город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/5fac96b3-e76a-4d1c-97bb-cf8884a78371.jpg",
     attractions: [
       "Городской краеведческий музей: зал В.К. Арсеньева — личные вещи, дневники и карты маршрутов экспедиций исследователя",
       "Городской краеведческий музей: зал природы — чучела амурского тигра, гималайского медведя и других зверей края",
@@ -111,6 +116,7 @@ const landmarks: Landmark[] = [
     description: "Самый южный район России. Граничит с Китаем и Северной Кореей. Здесь сосредоточено несколько заповедников и уникальные субтропические ландшафты.",
     founded: "1938",
     category: "Исторический район",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/ccdf51f2-7df2-4e49-be81-7e8656e1cc93.jpg",
     attractions: [
       "Заповедник «Земля леопарда» — единственная популяция дальневосточного леопарда",
       "Краскинское городище — раскопки столицы Бохайского царства VIII–X вв., аналог экспонатов зала музея Арсеньева «По следам Бохайского царства»",
@@ -131,6 +137,7 @@ const landmarks: Landmark[] = [
     description: "Горнодобывающий город на севере Приморья среди живописных сопок. Известен богатейшими месторождениями борного минерала — датолита, а также уникальными кристаллами.",
     founded: "1897",
     category: "Горный город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/d0ed2be3-6df4-45e7-b8c4-7e17138a7b25.jpg",
     attractions: [
       "Гора Ливадийская (Пидан) — священная гора приморских шаманов",
       "Рудник «Дальполиметалл» — экскурсии в действующую шахту",
@@ -149,6 +156,7 @@ const landmarks: Landmark[] = [
     description: "Один из старейших заповедников Приморья площадью 121 тыс. га. Охватывает горы Сихотэ-Алиня и побережье Японского моря. Здесь обитает около 50 амурских тигров.",
     founded: "1935",
     category: "Природный заповедник",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/9cf0101b-fbff-4941-9d45-73817dde45cd.jpg",
     attractions: [
       "Остров Петрова — реликтовый тисовый лес возрастом 500+ лет",
       "Бухта Петрова — эколого-туристический маршрут",
@@ -167,6 +175,7 @@ const landmarks: Landmark[] = [
     description: "Объект Всемирного наследия ЮНЕСКО. Площадь — более 400 тыс. га нетронутой тайги и морского побережья. Здесь пересекаются северные и южные виды флоры и фауны.",
     founded: "1935",
     category: "Объект ЮНЕСКО",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/bbd17bef-60e6-45b7-b09c-d5150536bead.jpg",
     attractions: [
       "Место падения Сихотэ-Алинского метеорита (1947 г.)",
       "Бухта Удобная — нетронутое морское побережье",
@@ -185,6 +194,7 @@ const landmarks: Landmark[] = [
     description: "Город в центре Приморья на берегу озера Ханка. Окружён рисовыми полями и уникальными озёрами. Центр производства цемента и сельского хозяйства края.",
     founded: "1886",
     category: "Город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/9bc0958f-c8c9-422e-bf15-5d8e5b6e5592.jpg",
     attractions: [
       "Озеро Ханка — крупнейшее пресноводное озеро Дальнего Востока",
       "Лотосовые озёра — цветение лотоса Комарова в июле–августе",
@@ -203,6 +213,7 @@ const landmarks: Landmark[] = [
     description: "Город в живописной долине реки Партизанской. Известен горнолыжными трассами и близостью к морскому побережью. Здесь начинается туристический маршрут к горе Пидан.",
     founded: "1896",
     category: "Город",
+    photo: "https://cdn.poehali.dev/projects/776100db-2e65-4cc3-965d-2a327164bb8c/files/b2ee8ae6-523f-472e-9714-7ed9f8983923.jpg",
     attractions: [
       "Гора Пидан (Ливадийская) — мистическая гора высотой 1332 м",
       "Каскадные водопады р. Партизанской",
@@ -363,69 +374,79 @@ export default function PrimorskyMap3D() {
           {/* Info Panel */}
           <div className="lg:w-96 flex flex-col gap-4">
             {selected ? (
-              <div className="rounded-2xl bg-white/5 ring-1 ring-white/15 p-6 flex flex-col gap-4 animate-fade-in">
-                <div className="flex items-start justify-between">
-                  <div>
+              <div className="rounded-2xl bg-white/5 ring-1 ring-white/15 overflow-hidden flex flex-col gap-0 animate-fade-in">
+                <div className="relative h-44 overflow-hidden">
+                  <img
+                    src={selected.photo}
+                    alt={selected.name}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                  <button
+                    onClick={() => setSelected(null)}
+                    className="absolute top-3 right-3 p-1.5 rounded-full bg-black/50 hover:bg-black/70 transition-colors text-white/70 hover:text-white backdrop-blur"
+                  >
+                    <Icon name="X" size={14} />
+                  </button>
+                  <div className="absolute bottom-3 left-4">
                     <div
-                      className="inline-block px-2 py-0.5 rounded-full text-xs font-medium mb-2"
-                      style={{ backgroundColor: selected.color + "33", color: selected.color }}
+                      className="inline-block px-2 py-0.5 rounded-full text-xs font-medium"
+                      style={{ backgroundColor: selected.color + "44", color: selected.color }}
                     >
                       {selected.category}
                     </div>
+                  </div>
+                </div>
+                <div className="p-5 flex flex-col gap-4">
+                  <div>
                     <h3 className="text-2xl font-semibold text-white">{selected.name}</h3>
                     <p className="text-white/50 text-sm mt-1">{selected.region}</p>
                   </div>
-                  <button
-                    onClick={() => setSelected(null)}
-                    className="p-2 rounded-full hover:bg-white/10 transition-colors text-white/40 hover:text-white"
-                  >
-                    <Icon name="X" size={16} />
-                  </button>
-                </div>
 
-                <div className="h-px bg-white/10" />
+                  <div className="h-px bg-white/10" />
 
-                <div>
-                  <div className="flex items-center gap-2 text-white/50 text-xs mb-2">
-                    <Icon name="BookOpen" size={12} />
-                    <span>Описание</span>
-                  </div>
-                  <p className="text-white/80 text-sm leading-relaxed">{selected.description}</p>
-                </div>
-
-                <div>
-                  <div className="flex items-center gap-2 text-white/50 text-xs mb-2">
-                    <Icon name="History" size={12} />
-                    <span>История</span>
-                  </div>
-                  <p className="text-white/80 text-sm leading-relaxed">{selected.history}</p>
-                </div>
-
-                <div className="flex items-center gap-2 px-3 py-2 bg-white/5 rounded-xl">
-                  <Icon name="Calendar" size={14} className="text-white/40" />
-                  <span className="text-white/50 text-xs">Основан:</span>
-                  <span className="text-white text-sm font-medium">{selected.founded} г.</span>
-                </div>
-
-                {selected.attractions && selected.attractions.length > 0 && (
                   <div>
-                    <div className="flex items-center gap-2 text-white/50 text-xs mb-3">
-                      <Icon name="MapPin" size={12} />
-                      <span>Достопримечательности</span>
+                    <div className="flex items-center gap-2 text-white/50 text-xs mb-2">
+                      <Icon name="BookOpen" size={12} />
+                      <span>Описание</span>
                     </div>
-                    <div className="flex flex-col gap-2">
-                      {selected.attractions.map((attr, i) => (
-                        <div key={i} className="flex items-start gap-2.5">
-                          <span
-                            className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0"
-                            style={{ backgroundColor: selected.color }}
-                          />
-                          <span className="text-white/70 text-sm leading-snug">{attr}</span>
-                        </div>
-                      ))}
-                    </div>
+                    <p className="text-white/80 text-sm leading-relaxed">{selected.description}</p>
                   </div>
-                )}
+
+                  <div>
+                    <div className="flex items-center gap-2 text-white/50 text-xs mb-2">
+                      <Icon name="History" size={12} />
+                      <span>История</span>
+                    </div>
+                    <p className="text-white/80 text-sm leading-relaxed">{selected.history}</p>
+                  </div>
+
+                  <div className="flex items-center gap-2 px-3 py-2 bg-white/5 rounded-xl">
+                    <Icon name="Calendar" size={14} className="text-white/40" />
+                    <span className="text-white/50 text-xs">Основан:</span>
+                    <span className="text-white text-sm font-medium">{selected.founded} г.</span>
+                  </div>
+
+                  {selected.attractions && selected.attractions.length > 0 && (
+                    <div>
+                      <div className="flex items-center gap-2 text-white/50 text-xs mb-3">
+                        <Icon name="MapPin" size={12} />
+                        <span>Достопримечательности</span>
+                      </div>
+                      <div className="flex flex-col gap-2">
+                        {selected.attractions.map((attr, i) => (
+                          <div key={i} className="flex items-start gap-2.5">
+                            <span
+                              className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                              style={{ backgroundColor: selected.color }}
+                            />
+                            <span className="text-white/70 text-sm leading-snug">{attr}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
               </div>
             ) : (
               <div className="rounded-2xl bg-white/5 ring-1 ring-white/10 p-6 flex flex-col items-center justify-center gap-3 min-h-[200px] text-center">
