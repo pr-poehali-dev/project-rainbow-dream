@@ -1,6 +1,6 @@
 import { useRef, useState, Suspense } from "react"
 import { Canvas, useFrame, useThree } from "@react-three/fiber"
-import { OrbitControls, Html, Sphere, Text } from "@react-three/drei"
+import { OrbitControls, Html } from "@react-three/drei"
 import * as THREE from "three"
 import Icon from "@/components/ui/icon"
 
