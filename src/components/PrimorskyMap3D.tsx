@@ -374,8 +374,8 @@ export default function PrimorskyMap3D() {
           {/* Info Panel */}
           <div className="lg:w-96 flex flex-col gap-4">
             {selected ? (
-              <div className="rounded-2xl bg-white/5 ring-1 ring-white/15 overflow-hidden flex flex-col gap-0 animate-fade-in">
-                <div className="relative h-44 overflow-hidden">
+              <div className="rounded-2xl bg-white/5 ring-1 ring-white/15 overflow-hidden flex flex-col gap-0 animate-fade-in max-h-[600px]">
+                <div className="relative h-44 flex-shrink-0 overflow-hidden">
                   <img
                     src={selected.photo}
                     alt={selected.name}
@@ -397,7 +397,7 @@ export default function PrimorskyMap3D() {
                     </div>
                   </div>
                 </div>
-                <div className="p-5 flex flex-col gap-4">
+                <div className="p-5 flex flex-col gap-4 overflow-y-auto custom-scroll">
                   <div>
                     <h3 className="text-2xl font-semibold text-white">{selected.name}</h3>
                     <p className="text-white/50 text-sm mt-1">{selected.region}</p>
